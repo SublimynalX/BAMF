@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  rotSpeed: 1
+  horizontalSpeed: 2
 --- !u!43 &591515157
 Mesh:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1111503413}
-  m_LocalRotation: {x: -0.000000037252903, y: -0.000000027939677, z: 0.0009448302,
+  m_LocalRotation: {x: -0.000000014901161, y: -0.0000000037252903, z: 0.0009452589,
     w: 0.9999996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2762,7 +2762,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2097041824}
-  m_LocalRotation: {x: 0.12210159, y: -0.007858226, z: 0.032832943, w: 0.9919433}
+  m_LocalRotation: {x: 0.118421964, y: -0.030770008, z: 0.2195241, w: 0.96790427}
   m_LocalPosition: {x: 322.17, y: 174.81999, z: 210.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

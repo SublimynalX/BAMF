@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class TempControl : MonoBehaviour {
 
-    [SerializeField] float moveSpeed = 10, rotSpeed = 1;
+    [SerializeField] float moveSpeed = 10,horizontalSpeed = 2.0f;
     float hMove;
     float vertMove;
+
+   
+    
 	void Start () {
 		
 	}
@@ -34,9 +37,10 @@ public class TempControl : MonoBehaviour {
             transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
         }
 
-        if (Input.GetKey(KeyCode.R)){
-            transform.Rotate(0, rotSpeed, 0);
-        }
+        float h = horizontalSpeed * Input.GetAxis("Mouse X");
+
+        transform.Rotate(0, h, 0);
+
        
 	}
 }
