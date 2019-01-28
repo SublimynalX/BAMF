@@ -4,43 +4,33 @@ using UnityEngine;
 
 public class TempControl : MonoBehaviour {
 
-    [SerializeField] float moveSpeed = 10,horizontalSpeed = 2.0f;
-    float hMove;
-    float vertMove;
 
-   
+    CharacterController cControl;
+    [SerializeField] float speed = 5f;
+    float gravity = 9.81f;
+
+
+
     
 	void Start () {
-		
+        cControl = GetComponent<CharacterController>();
 	}
 	
 	
-	void LateUpdate () {
-        hMove = Input.GetAxis("Horizontal");
-        if(Input.GetButton("Horizontal") && hMove > 0)
-        {
-            transform.Translate(moveSpeed * Time.deltaTime, 0, 0);
-        }
-        else if(Input.GetButton("Horizontal") && hMove < 0)
-        {
-            transform.Translate(-moveSpeed * Time.deltaTime, 0, 0);
-        }
-
-
-        vertMove = Input.GetAxis("Vertical");
-        if(Input.GetButton("Vertical") && vertMove > 0)
-        {
-            transform.Translate( 0, 0, moveSpeed * Time.deltaTime);
-        }
-        else if(Input.GetButton("Vertical") && vertMove < 0)
-        {
-            transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
-        }
-
-        float h = horizontalSpeed * Input.GetAxis("Mouse X");
-
-        transform.Rotate(0, h, 0);
-
+	void Update () {
+        CalculateMovement();
        
 	}
+    void CalculateMovement()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalMovement = Input.GetAxis("Vertical");
+        Vector3 direction = new Vector3(horizontalInput, 0, verticalMovement);
+        Vector3 velocity = direction * speed;
+        velocity.y -= gravity;
+
+        velocity = transform.transform.TransformDirection(velocity);
+        cControl.Move(velocity * Time.deltaTime);
+
+    }
 }
