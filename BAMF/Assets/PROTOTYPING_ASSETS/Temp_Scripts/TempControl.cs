@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class TempControl : MonoBehaviour {
 
@@ -25,8 +26,9 @@ public class TempControl : MonoBehaviour {
 	}
     void CalculateMovement()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalMovement = Input.GetAxis("Vertical");
+        float horizontalInput = CrossPlatformInputManager.GetAxis("Horizontal");
+        float verticalMovement = CrossPlatformInputManager.GetAxis("Vertical");
+       
         playerAnim.SetFloat("Walk", verticalMovement);
         Vector3 direction = new Vector3(horizontalInput, 0, verticalMovement);
         Vector3 velocity = direction * speed;
