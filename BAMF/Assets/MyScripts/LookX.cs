@@ -13,10 +13,12 @@ public class LookX : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+       
         float mouseX = Input.GetAxis("Mouse X");
         Vector3 newRot = transform.localEulerAngles;
         newRot.y += mouseX * sensitivity;
         transform.localEulerAngles = newRot;
-	}
+
+       
+    }
 }
