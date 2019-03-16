@@ -9674,7 +9674,7 @@ Transform:
   - {fileID: 534669905}
   - {fileID: 128686581}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &175907120
 Mesh:
@@ -10889,7 +10889,7 @@ Transform:
   - {fileID: 432259853}
   - {fileID: 1988839883}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &208176886
 GameObject:
@@ -23750,7 +23750,7 @@ Transform:
   - {fileID: 881999894}
   - {fileID: 239037891}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432259852
 GameObject:
@@ -29563,7 +29563,7 @@ Transform:
   - {fileID: 745833400}
   - {fileID: 1371732981}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &634823049
 GameObject:
@@ -33661,7 +33661,7 @@ PrefabInstance:
     - target: {fileID: 5943492038426170064, guid: a5174d0d98846419290c40aadee4ec46,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5943492038426170064, guid: a5174d0d98846419290c40aadee4ec46,
         type: 3}
@@ -40374,85 +40374,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &827247322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 827247325}
-  - component: {fileID: 827247324}
-  - component: {fileID: 827247323}
-  m_Layer: 0
-  m_Name: Terrain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!154 &827247323
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827247322}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: c8e2cf88a6042ec40a3fe0bfb5779f78, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &827247324
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827247322}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_TerrainData: {fileID: 15600000, guid: c8e2cf88a6042ec40a3fe0bfb5779f78, type: 2}
-  m_TreeDistance: 2000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_CastShadows: 1
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialType: 0
-  m_LegacySpecular:
-    serializedVersion: 2
-    rgba: 4286545791
-  m_LegacyShininess: 0.078125
-  m_MaterialTemplate: {fileID: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_ScaleInLightmap: 0.2048
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_AllowAutoConnect: 0
---- !u!4 &827247325
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827247322}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -253, y: 0, z: -253}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &836152224
 Mesh:
   m_ObjectHideFlags: 0
@@ -44856,7 +44777,7 @@ Transform:
   - {fileID: 1050651571}
   - {fileID: 852076995}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &881999893
 GameObject:
@@ -58420,7 +58341,7 @@ Transform:
   - {fileID: 1322529703}
   - {fileID: 1309848639}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1028123234
 Mesh:
@@ -65031,7 +64952,7 @@ PrefabInstance:
     - target: {fileID: 8627628400605805532, guid: 874c132647318cb4bb9cf47269055b7f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8627628400605805532, guid: 874c132647318cb4bb9cf47269055b7f,
         type: 3}
@@ -81048,7 +80969,7 @@ Transform:
   - {fileID: 1076768465}
   - {fileID: 227749944}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!43 &1420590091
 Mesh:
@@ -93009,7 +92930,7 @@ Transform:
   - {fileID: 1406248548}
   - {fileID: 1325982512}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!43 &1702565574
 Mesh:
@@ -95531,7 +95452,7 @@ Transform:
   - {fileID: 766753926}
   - {fileID: 1054476931}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1751738244
 Mesh:
@@ -103868,7 +103789,7 @@ Transform:
   - {fileID: 856962038}
   - {fileID: 50027922}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1966690118
 GameObject:
@@ -116370,7 +116291,7 @@ PrefabInstance:
     - target: {fileID: 5943492038426170064, guid: a5174d0d98846419290c40aadee4ec46,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5943492038426170064, guid: a5174d0d98846419290c40aadee4ec46,
         type: 3}
@@ -116439,7 +116360,7 @@ PrefabInstance:
     - target: {fileID: 8627628400605805532, guid: 874c132647318cb4bb9cf47269055b7f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8627628400605805532, guid: 874c132647318cb4bb9cf47269055b7f,
         type: 3}
