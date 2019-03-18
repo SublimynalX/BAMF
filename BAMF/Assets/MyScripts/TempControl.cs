@@ -9,21 +9,23 @@ public class TempControl : MonoBehaviour {
     CharacterController cControl;
     [SerializeField] float speed = 5f;
     float gravity = 9.81f;
-
+    [SerializeField] Transform cameraRaySpawnPos;
     Animator playerAnim;
 
     
 	void Start () {
         cControl = GetComponent<CharacterController>();
         playerAnim = GetComponentInChildren<Animator>();
+       
+       
 	}
 	
 	
 	void Update () {
         CalculateMovement();
-
-       
-	}
+        
+      
+    }
     void CalculateMovement()
     {
         float horizontalInput = CrossPlatformInputManager.GetAxis("Horizontal");

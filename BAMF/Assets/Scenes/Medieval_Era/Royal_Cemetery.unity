@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9
+  cameraRaySpawnPos: {fileID: 0}
 --- !u!114 &290290906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +330,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b84062f7c28e4552a30addb4234b2c9, type: 3}
+--- !u!1 &538516716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3984737037587951772, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1141357100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &538516719
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538516716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1001 &720238012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1234,7 +1255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097041824}
   m_LocalRotation: {x: 0.02992791, y: 0, z: 0, w: 0.9995521}
-  m_LocalPosition: {x: 0.0020141602, y: 4.2, z: -12.28}
+  m_LocalPosition: {x: 0, y: 3.78, z: -12.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 290290903}
