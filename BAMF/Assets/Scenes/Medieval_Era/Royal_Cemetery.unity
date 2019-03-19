@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Statue_W_Base_1A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4373792438523761655, guid: 2250c2f28edc64468874023444376edb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5990332762054414597, guid: 2250c2f28edc64468874023444376edb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -162,7 +167,7 @@ PrefabInstance:
     - target: {fileID: 5990332762054414597, guid: 2250c2f28edc64468874023444376edb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5990332762054414597, guid: 2250c2f28edc64468874023444376edb,
         type: 3}
@@ -273,6 +278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Middle_Path
       objectReference: {fileID: 0}
+    - target: {fileID: 233104979884982982, guid: 2b84062f7c28e4552a30addb4234b2c9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 233104979884982983, guid: 2b84062f7c28e4552a30addb4234b2c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,6 +372,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Statue_W_Base_1B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1726246650952140967, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 742678208140592807, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -400,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 742678208140592807, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 742678208140592807, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
         type: 3}
@@ -492,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 839bcb36917154961b457f9f66e012b4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a49add659ac5c477fab5b5074d1287c6, type: 3}
---- !u!1 &935431767
+--- !u!1 &790966024
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -500,85 +515,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 935431770}
-  - component: {fileID: 935431769}
-  - component: {fileID: 935431768}
-  - component: {fileID: 935431771}
+  - component: {fileID: 790966028}
+  - component: {fileID: 790966027}
+  - component: {fileID: 790966026}
+  - component: {fileID: 790966025}
   m_Layer: 10
-  m_Name: Terrain
+  m_Name: RC_Terrain
   m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!154 &935431768
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935431767}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 7f141bfeea9f0b7498390c999a000f98, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &935431769
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935431767}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_TerrainData: {fileID: 15600000, guid: 7f141bfeea9f0b7498390c999a000f98, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 8863
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_CastShadows: 1
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialType: 0
-  m_LegacySpecular:
-    serializedVersion: 2
-    rgba: 4286545791
-  m_LegacyShininess: 0.078125
-  m_MaterialTemplate: {fileID: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_ScaleInLightmap: 0.0512
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_AllowAutoConnect: 1
---- !u!4 &935431770
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935431767}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935431771
+--- !u!114 &790966025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935431767}
+  m_GameObject: {fileID: 790966024}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bab95486460ed4ae7beb7d2bca8a6415, type: 3}
@@ -587,15 +541,15 @@ MonoBehaviour:
   randomHeightRange: {x: 0, y: 0.1}
   heightMapImage: {fileID: 0}
   heightMapScale: {x: 1, y: 1, z: 1}
-  smoothAmount: 4
+  smoothAmount: 1
   voronoiFallOff: 0.2
   voronoiDropOff: 0.6
   voronoiMinHeight: 0.1
   voronoiMaxHeight: 0.5
   voronoiPeaks: 5
-  voronoiType: 2
-  terrain: {fileID: 935431769}
-  terrainData: {fileID: 15600000, guid: 7f141bfeea9f0b7498390c999a000f98, type: 2}
+  voronoiType: 0
+  terrain: {fileID: 790966027}
+  terrainData: {fileID: 15600000, guid: 2a12b5487d3957441b864e026d3da80f, type: 2}
   resetTerrain: 0
   MPDheightMin: -2
   MPDheightMax: 2
@@ -625,11 +579,11 @@ MonoBehaviour:
   cloudRange: 500
   details:
   - prototype: {fileID: 0}
-    prototypeTexture: {fileID: 2800000, guid: d6cdc79ec19714fcd980ca3f6ac01a0a, type: 3}
-    minHeight: 0.0012
+    prototypeTexture: {fileID: 0}
+    minHeight: 0.1
     maxHeight: 0.2
-    minSlope: 25
-    maxSlope: 90
+    minSlope: 0
+    maxSlope: 1
     dryColor: {r: 1, g: 1, b: 1, a: 1}
     healthyColor: {r: 1, g: 1, b: 1, a: 1}
     heightRange: {x: 1, y: 1}
@@ -637,16 +591,16 @@ MonoBehaviour:
     noiseSpread: 0.5
     overlap: 0.01
     feather: 0.05
-    density: 1
-    remove: 1
-  maxDetails: 8863
-  detailSpacing: 1
+    density: 0.5
+    remove: 0
+  maxDetails: 5000
+  detailSpacing: 5
   vegetation:
-  - mesh: {fileID: 100000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
-    minHeight: 0.001
+  - mesh: {fileID: 0}
+    minHeight: 0.1
     maxHeight: 0.2
-    minSlope: 15
-    maxSlope: 35
+    minSlope: 0
+    maxSlope: 90
     minScale: 0.5
     maxScale: 1
     color1: {r: 1, g: 1, b: 1, a: 1}
@@ -659,37 +613,25 @@ MonoBehaviour:
   maxTrees: 5000
   treeSpacing: 5
   erosionType: 4
-  erosionStrength: 0.091
+  erosionStrength: 0.08
   springsPerRiver: 5
-  solubility: 0.074
-  droplets: 115
-  erosionSmoothAmount: 1
-  erosionAmount: 0.065
+  solubility: 0.01
+  droplets: 10
+  erosionSmoothAmount: 0
+  erosionAmount: 0.06
   perlinParameters:
-  - mPerlinXScale: 0.1
+  - mPerlinXScale: 0.01
     mPerlinYScale: 0.01
-    mPerlinOctaves: 1
-    mPerlinPersistance: 4
+    mPerlinOctaves: 3
+    mPerlinPersistance: 8
     mPerlinHeightScale: 0.09
     mPerlinOffsetX: 0
     mPerlinOffsetY: 0
     remove: 0
   splatHeights:
-  - texture: {fileID: 2800000, guid: eafd0beb9c624d34f812be7d14134c2f, type: 3}
+  - texture: {fileID: 2800000, guid: 56b63d1bcbdf82e44b047af859f6227b, type: 3}
     minHeight: 0.1
     maxHeight: 0.2
-    minSlope: 5
-    maxSlope: 15
-    remove: 0
-    tileOffset: {x: 0, y: 0}
-    tileSize: {x: 15, y: 15}
-    splatOffset: 0.1
-    splatNoiseXScale: 0.01
-    splatNoiseYScale: 0.01
-    splatNoiseScaler: 0.1
-  - texture: {fileID: 2800000, guid: eafd0beb9c624d34f812be7d14134c2f, type: 3}
-    minHeight: 0
-    maxHeight: 1
     minSlope: 0
     maxSlope: 5
     remove: 0
@@ -699,23 +641,11 @@ MonoBehaviour:
     splatNoiseXScale: 0.01
     splatNoiseYScale: 0.01
     splatNoiseScaler: 0.1
-  - texture: {fileID: 2800000, guid: 1d1ca9b1ff6a5ce4bbac09d301d51462, type: 3}
-    minHeight: 0.1
-    maxHeight: 1
-    minSlope: 15
-    maxSlope: 25
-    remove: 0
-    tileOffset: {x: 0, y: 0}
-    tileSize: {x: 15, y: 15}
-    splatOffset: 0.1
-    splatNoiseXScale: 0.01
-    splatNoiseYScale: 0.01
-    splatNoiseScaler: 0.1
-  - texture: {fileID: 2800000, guid: 62bf058d0f2f5df4da1f61da15013f34, type: 3}
+  - texture: {fileID: 2800000, guid: 3a67505ded26145ecbbafc32f569f643, type: 3}
     minHeight: 0.1
     maxHeight: 0.2
-    minSlope: 25
-    maxSlope: 30
+    minSlope: 5
+    maxSlope: 10
     remove: 0
     tileOffset: {x: 0, y: 0}
     tileSize: {x: 15, y: 15}
@@ -727,7 +657,7 @@ MonoBehaviour:
     minHeight: 0.1
     maxHeight: 0.2
     minSlope: 30
-    maxSlope: 45
+    maxSlope: 40
     remove: 0
     tileOffset: {x: 0, y: 0}
     tileSize: {x: 15, y: 15}
@@ -738,7 +668,7 @@ MonoBehaviour:
   - texture: {fileID: 2800000, guid: 18214e9d6af6248559d501391856f1c7, type: 3}
     minHeight: 0.1
     maxHeight: 0.2
-    minSlope: 45
+    minSlope: 40
     maxSlope: 90
     remove: 0
     tileOffset: {x: 0, y: 0}
@@ -747,7 +677,80 @@ MonoBehaviour:
     splatNoiseXScale: 0.01
     splatNoiseYScale: 0.01
     splatNoiseScaler: 0.1
+  - texture: {fileID: 2800000, guid: 1d1ca9b1ff6a5ce4bbac09d301d51462, type: 3}
+    minHeight: 0.1
+    maxHeight: 0.2
+    minSlope: 10
+    maxSlope: 30
+    remove: 0
+    tileOffset: {x: 0, y: 0}
+    tileSize: {x: 50, y: 50}
+    splatOffset: 0.1
+    splatNoiseXScale: 0.01
+    splatNoiseYScale: 0.01
+    splatNoiseScaler: 0.1
   terrainLayer: 10
+--- !u!154 &790966026
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790966024}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 2a12b5487d3957441b864e026d3da80f, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &790966027
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790966024}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: 2a12b5487d3957441b864e026d3da80f, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 5000
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 0
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_ScaleInLightmap: 0.0512
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_AllowAutoConnect: 1
+--- !u!4 &790966028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790966024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1141357100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -759,6 +762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Statue_W_Base_1B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726246650952140967, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 742678208140592807, guid: 4b14d41ffc57c4c8cb0425b7f3d06b99,
         type: 3}
@@ -828,6 +836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Statue_W_Base_1A
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373792438523761655, guid: 2250c2f28edc64468874023444376edb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5990332762054414597, guid: 2250c2f28edc64468874023444376edb,
         type: 3}
@@ -967,6 +980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unbroken_Maus
       objectReference: {fileID: 0}
+    - target: {fileID: 7051431203424746759, guid: 09ff1e0519f1a40aaa811866a267773d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7051431203424746753, guid: 09ff1e0519f1a40aaa811866a267773d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1041,6 +1059,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gate_Path
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135846338345680727, guid: 86ba2cedef034064482c575b0f22e62f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6929239618579961766, guid: 86ba2cedef034064482c575b0f22e62f,
         type: 3}
@@ -1272,6 +1295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RC_Perimeter_Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297514704761990853, guid: bc69a64107c007142a0b88bb844003ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8478841841714062801, guid: bc69a64107c007142a0b88bb844003ab,
         type: 3}
